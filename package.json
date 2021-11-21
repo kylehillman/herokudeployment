@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "formidable": "^2.0.1",
+    "jsonfile": "^6.1.0",
+    "multer": "^1.4.3"
   },
   "devDependencies": {
     "got": "^11.3.0",
