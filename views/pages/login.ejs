@@ -1,3 +1,23 @@
-<html>
-This is the login page
-</html>
+<%- include('../includes/head', { pageTitle: 'Signup' }) %>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/forms.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/auth.css" />
+    </head>
+
+    <body>
+        <%- include('../includes/header') %>
+            <main>
+                <h1>Create New Account</h1>
+                <form action="" method="">
+                    <p>
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" minlength="6" required>
+                    </p>
+                    </p>
+                    <button class="btn">Login</button>
+                </form>
+            </main>
+            <%- include('../includes/footer') %>
